@@ -10,7 +10,7 @@ git clone <URL> -> Clone a repository into a new directory
 
 git ls -> lists the files in the repository 
 
-git touch <filename> -> create a new file in the repository 
+touch <filename> -> create a new file in the repository 
 
 git add <filename> -> add a file to the repository and track it
 
