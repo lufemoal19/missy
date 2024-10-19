@@ -1,0 +1,79 @@
+https://github.com/new
+
+Create a new repository, it could have any name if is not al ready in use in other own repository.
+
+** First Steps **
+
+cd the directory of the file where I want to use the GitHub repository
+
+git clone <URL> -> Clone a repository into a new directory
+
+git ls -> lists the files in the repository 
+
+git touch <filename> -> create a new file in the repository 
+
+git add <filename> -> add a file to the repository and track it
+
+git commit -m "message" -> save points in the repository 
+
+The message is really important, is the way to identify particular changes in the repository
+
+git push -> Update the repository with the changes I did  to the files in my computer
+
+
+git commit -am "message" -> add all the files with the changes and provides a message
+
+-am -> provides the git add and the git commit in one line :o
+
+git pull -> Download the recent version of the code to the local repository
+
+
+** Merge Conflicts ** 
+
+Changes in the same line --> git don't know what to do
+Git add meta data to the file to describe the errors of the file
+Human intuition have to decide what to do with the changes
+Delete other changes , keep both changes, it depends of the situation
+
+After take a decision make a commit and push the changes that solve the merge conflict
+
+** Important commands **
+
+git log -> track every commit in the repository -> give a hash with all the commit with the date and message 
+
+git reset -> revert the repository to an older version 
+
+git reset --hard <commit> -> get back to a particular commit
+
+git reset --hard origin/master -> reset my copy of the repository to the same that is in GitHub
+
+** Branching ** 
+
+git branch -> tell me what branch I'm working on and what branches exists in the repository
+
+git checkout -b <name> -> add new branch to the repository
+
+git checkout master -> switch between branches in the repository
+git checkout <name> -> change the code in VS code :o 
+
+** Merge branching **
+
+On the master branch we type the command git merge to merge the different branches
+git merge <name>
+
+Probably we have to solve some merge conflicts in the update file with the changes 
+
+
+** Fork **
+
+Forking mean making your own copy of the original repository 
+https://github.com/twbs/bootstrap
+
+To collaborate in a open source repository I could make a pull request and it will be check out to find out if is a good contribution or not. 
+
+
+** GitHub Pages **
+
+Create GitHub pages for free --> create a new repository with the name 
+
+Username.github.io -> automatic supported by GitHub pages, it will give a link to look the website
